@@ -1,0 +1,346 @@
+	@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+	:root {
+		--color1: #1580A0;
+		--color2: #E33F65;
+		--color3: #2C992A;
+		--color4: #3A5D31;
+		--color5: #000000;
+		--altoSticky: 140px;
+	}
+
+	.caveat {
+		font-family: "Caveat" !important;
+	}
+
+	.montserrat {
+		font-family: "Montserrat", sans-serif !important;
+	}
+
+	form#horarios-form * {
+		box-sizing: border-box !important;
+	}
+
+	.bgColor1 {
+		background-color: var(--color1);
+	}
+
+	.bgColor2 {
+		background-color: var(--color2);
+	}
+
+	.bgColor3 {
+		background-color: var(--color3);
+	}
+
+	.bgColor4 {
+		background-color: var(--color4);
+	}
+
+	.bgColor5 {
+		background-color: var(--color5);
+	}
+
+	.bgWhite {
+		background-color: white;
+	}
+
+	.color1 {
+		color: var(--color1);
+	}
+
+	.color2 {
+		color: var(--color2);
+	}
+
+	.color3 {
+		color: var(--color3);
+	}
+
+	.color4 {
+		color: var(--color4);
+	}
+
+	.color5 {
+		color: var(--color5);
+	}
+
+
+	.containerShortcode {
+		max-width: 1200px !important;
+		width: 1000px;
+		background-color: white;
+		padding: 30px 30px;
+		border-radius: 20px;
+	}
+
+	.w-100 {
+		width: 100% !important;
+	}
+
+	.d-flex {
+		display: flex !important;
+	}
+
+	.flex-column {
+		flex-direction: column;
+	}
+
+	.align-items-center {
+		align-items: center;
+	}
+
+	.align-items-start {
+		align-items: start;
+	}
+
+	.justify-content-between {
+		justify-content: space-between;
+	}
+
+	.justify-content-center {
+		justify-content: center !important;
+	}
+
+
+	.mt-10px {
+		margin-top: 10px !important;
+	}
+
+	.mt-20px {
+		margin-top: 20px !important;
+	}
+
+
+	.mr-5px {
+		margin-right: 5px !important;
+	}
+
+	.text-center {
+		text-align: center !important;
+	}
+
+	.bg-transparent {
+		background-color: transparent !important;
+	}
+
+	.sticky {
+		position: sticky !important;
+	}
+
+	.containerSeleccionarFechaViaje {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	#horarios-form {
+		max-width: none !important;
+		display: flex;
+		justify-content: center;
+		align-items: start;
+	}
+
+	.fecha-viaje-horario {
+		max-width: 150px !important;
+		background-color: #f5f8fa !important;
+		border-color: #f5f8fa !important;
+		color: #5e6278 !important;
+		transition: color .2s ease, background-color .2s ease !important;
+		padding: 1em .65em !important;
+	}
+
+	.hora {
+		flex: 3;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.llegada {
+		flex: 3;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.duracion {
+		flex: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.horario {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 0px;
+	}
+
+	.fila {
+		margin: 20px 0;
+		background-color: #FFF;
+		border-radius: 14px;
+		padding: 10px 0;
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
+		box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.20);
+		width: 100%;
+		color: var(--negro);
+		font-weight: 300;
+		overflow: hidden;
+	}
+
+
+
+
+	.fs-numbers-cards-horarios {
+		font-size: 30px !important;
+		font-weight: 600;
+		font-family: "Montserrat", sans-serif !important;
+	}
+
+	.fw-600 {
+		font-weight: 600;
+	}
+
+	.w-cards-horarios {}
+
+	.iconrow-cards-horarios,
+	.iconrow-cards-horarios::before {
+		font-size: 45px;
+		color: var(--color3);
+	}
+
+	.icon-location-cards-horarios,
+	.icon-location-cards-horarios::before {
+		font-size: 35px;
+	}
+
+	.containerHorario {
+		flex: 1;
+		padding: 0px 10px;
+	}
+
+	.barco {
+		text-align: center;
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.containerHorarios {
+		display: flex;
+		align-items: start;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.btn-horarios {
+		font-size: 1em !important;
+		font-weight: 500 !important;
+		color: white !important;
+		background-color: var(--color1) !important;
+		border-radius: 10px !important;
+		border: none !important;
+		padding: .25rem 1.5rem !important; 
+		text-shadow: none;
+  		box-shadow: none;
+		margin-bottom: 10px !important;
+	}
+
+	.fs-15px {
+		font-size: 15px;
+	}
+
+	.fs-labels-sticky {
+		font-size: 48px;
+	}
+
+	.horariosDisponibles {
+		margin-top: 35px;
+		font-size: 14px;
+		color: rgb(94, 94, 94);
+		font-weight: 700;
+	}
+
+
+
+
+
+	.labelSeleccioneFecha {
+		font-size: 14px;
+		font-weight: 900;
+		color: rgb(94, 94, 94);
+	}
+
+	@media (max-width: 980px) {
+		.containerHorarios {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.containerHorario {
+			padding: 0px 0px;
+			width: 100%;
+		}
+
+		.iconrow-cards-horarios,
+		.iconrow-cards-horarios::before {
+			font-size: 35px;
+			color: green;
+			display: none;
+		}
+
+		.icon-location-cards-horarios,
+		.icon-location-cards-horarios::before {
+			font-size: 25px;
+		}
+
+		.containerSeleccionarFechaViaje {
+			flex-direction: column;
+		}
+
+		.fs-numbers-cards-horarios {
+			font-size: 18px !important;
+			font-weight: 600;
+		}
+
+		.containerShortcode {
+			padding: 30px 30px;
+		}
+
+		.mt-movil-5px {
+			margin-top: 5px !important;
+		}
+
+		.horariosDisponibles {
+			margin-top: 15px;
+		}
+
+
+	}
+
+
+	.h5 {
+		font-size: 48px !important;
+		margin-top: 0px !important;
+	}
+
+	h5.sticky {
+		position: -webkit-sticky !important;
+		position: sticky !important;
+		top: var(--altoSticky) !important;
+		background-color: white;
+	}
+
+	@media screen and (max-width: 400px) {
+		h5.sticky {
+			top: 0px !important;
+		}
+	}
+
+	html {
+		overflow-x: unset;
+	}
